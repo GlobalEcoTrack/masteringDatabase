@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4192101A-CD66-CCF1-4153-8B4F4423468E" name="ECO_TRACK_TB_USER_APPLIANCE">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>A5BDE1F2-D030-0AA6-D508-03869072B4C0</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="24078EEA-BE5C-FE1B-EC83-0991F1E83A26">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>08468886-589C-014A-A835-AC2D19F24EDF</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASSOCIATION_DATE" id="D57BAC0A-69C1-A8F3-8859-D11348D8F435">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>AEB296D0-9A56-8AB3-362E-39A7F7FB1AE5</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MINUTES_USED_PER_DAY" id="0855FD74-F2AA-0388-DDAE-7F52804F4088">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>AAFF07C4-E157-979E-D712-FEF16752436E</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYS_USED_PER_WEEK" id="372A4418-3816-FEE9-A4FA-9320A7D9AD4E">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>7FD847B8-ED59-751C-B220-1AF9382FB610</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_CONSUMPTION" id="3BDCB0E9-F50F-18EC-3A8C-C0A95505FEA5">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>6E303E4D-DC01-3048-9A80-19E1B3FD5331</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_COST" id="9B577EA3-DF81-4B7F-017F-3F7741938F05">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>FC1DB1A5-55A8-49C3-06D5-69FF0610914C</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ID" id="8628C98C-1216-96B6-13E0-C89CB8369820">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>F6BC4B45-6E7F-9FCF-4FB7-9873B99201D5</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAAAF156-B979-4C84-EEC5-8ECBDCCBC581" referredColumn="93AF6B36-96B4-368F-78FD-8DC96B1AED11"/>
+</associations>
+</Column>
+<Column name="APPLIANCE_ID" id="99BEDBB1-2C2B-E911-398C-039533C70E53">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>CE83B27A-7DAE-28D8-5F8A-7602368DC0F3</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0CE56C3-FC4B-9141-A694-28EC656E526F" referredColumn="0F82A56C-4B10-23A4-E07E-14DDA5B00DFB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BE087CF-A4F7-D35D-D75A-2A3758E8BA36" name="ECO_TRACK_TB_USER_APPLIANCE_PK">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>CD967B96-4D67-3D27-896C-EEE16EBAB279</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24078EEA-BE5C-FE1B-EC83-0991F1E83A26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C2D8DDF-2A6C-34E6-2A50-48DDDD7087C2" name="ECO_TRACK_TB_USER_APPLIANCE_ECO_TRACK_TB_USER_FK">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>EF86D444-E0AF-DEEC-4A9E-4A43BADD1D6F</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8628C98C-1216-96B6-13E0-C89CB8369820"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0349FDD5-DCB6-FCF1-9A3A-1606C5A2B6DC" name="ECO_TRACK_TB_USER_APPLIANCE_ECO_TRACK_TB_APPLIANCE_FK">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>9C3656C5-3106-66BC-D309-AB3495C519AF</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99BEDBB1-2C2B-E911-398C-039533C70E53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5BDE1F2-D030-0AA6-D508-03869072B4C0" name="ECO_TRACK_TB_USER_APPLIANCE">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:16:35 UTC</createdTime>
+<ownerDesignName>DDL</ownerDesignName>
+<engineerTo>
+<item key="1B1FC86B-746C-A864-2212-205C5AEF3695" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="08468886-589C-014A-A835-AC2D19F24EDF">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:17:26 UTC</createdTime>
+<ownerDesignName>DDL</ownerDesignName>
+<engineerTo>
+<item key="1B1FC86B-746C-A864-2212-205C5AEF3695" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ASSOCIATION_DATE" id="AEB296D0-9A56-8AB3-362E-39A7F7FB1AE5">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:17:59 UTC</createdTime>
+<ownerDesignName>DDL</ownerDesignName>
+<engineerTo>
+<item key="1B1FC86B-746C-A864-2212-205C5AEF3695" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MINUTES_USED_PER_DAY" id="AAFF07C4-E157-979E-D712-FEF16752436E">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:18:32 UTC</createdTime>
+<ownerDesignName>DDL</ownerDesignName>
+<engineerTo>
+<item key="1B1FC86B-746C-A864-2212-205C5AEF3695" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAYS_USED_PER_WEEK" id="7FD847B8-ED59-751C-B220-1AF9382FB610">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:19:11 UTC</createdTime>
+<ownerDesignName>DDL</ownerDesignName>
+<engineerTo>
+<item key="1B1FC86B-746C-A864-2212-205C5AEF3695" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL_CONSUMPTION" id="6E303E4D-DC01-3048-9A80-19E1B3FD5331">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:21:25 UTC</createdTime>
+<ownerDesignName>DDL</ownerDesignName>
+<engineerTo>
+<item key="1B1FC86B-746C-A864-2212-205C5AEF3695" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL_COST" id="FC1DB1A5-55A8-49C3-06D5-69FF0610914C">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:21:50 UTC</createdTime>
+<ownerDesignName>DDL</ownerDesignName>
+<engineerTo>
+<item key="1B1FC86B-746C-A864-2212-205C5AEF3695" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="F6BC4B45-6E7F-9FCF-4FB7-9873B99201D5">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:23:49 UTC</createdTime>
+<generatorID>EF86D444-E0AF-DEEC-4A9E-4A43BADD1D6F</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<engineerTo>
+<item key="1B1FC86B-746C-A864-2212-205C5AEF3695" value="true"/>
+</engineerTo>
+<referedAttribute>4B749293-5543-AC78-6B21-5E795D98BCC6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="CE83B27A-7DAE-28D8-5F8A-7602368DC0F3">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:23:57 UTC</createdTime>
+<generatorID>9C3656C5-3106-66BC-D309-AB3495C519AF</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<engineerTo>
+<item key="1B1FC86B-746C-A864-2212-205C5AEF3695" value="true"/>
+</engineerTo>
+<referedAttribute>65026BE4-0A1D-8D0D-26E8-799E06DA8B32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD967B96-4D67-3D27-896C-EEE16EBAB279" name="ECO_TRACK_TB_USER_APPLIANCE PK">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:17:58 UTC</createdTime>
+<ownerDesignName>DDL</ownerDesignName>
+<engineerTo>
+<item key="1B1FC86B-746C-A864-2212-205C5AEF3695" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08468886-589C-014A-A835-AC2D19F24EDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

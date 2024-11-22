@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DDL" id="BFAEF7E3-7A41-C45D-824B-32E2CD364F85" version="3.5">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-21 23:23:03 UTC</createdTime>
+<ownerDesignName>DDL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BFAEF7E3-7A41-C45D-824B-32E2CD364F85</designId>
+</OSDM_Design>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="442BAE7B-68AB-53C2-1CEB-FF232E831340" name="ECO_TRACK_TB_APPLIANCE">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>A70AA91A-CC53-C80B-8218-2FF06B9E3C80</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0F82A56C-4B10-23A4-E07E-14DDA5B00DFB">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>65026BE4-0A1D-8D0D-26E8-799E06DA8B32</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="E5CF9039-38E7-D796-2A1E-083CA6C3D5DF">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>CF4D50F6-B1B5-CEBA-F018-252EE41E918F</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KW" id="53470A61-650D-4B73-87E1-33BF8FC4ED33">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>0A242065-AF1B-0A99-67D4-E9845327AE34</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78F9D49D-589D-95F8-A563-D4D8891D0845" name="ECO_TRACK_TB_APPLIANCE_PK">
+<createdBy>Kaua</createdBy>
+<createdTime>2024-11-22 00:25:10 UTC</createdTime>
+<generatorID>3AD8AE27-B75B-FFA3-27C3-DE3B67E43DFA</generatorID>
+<ownerDesignName>DDL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F82A56C-4B10-23A4-E07E-14DDA5B00DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
